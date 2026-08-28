@@ -1,3 +1,19 @@
+1. Unutar MainActivity postaviti Toolbar i LinearLayout sa svetlozelenom pozadinom. (1)
+2. Kreirati fragment: MovieFragment. (1)
+3. MovieFragment sadrži RecyclerView i služi za prikaz filma. U dnu fragmenta dodati dva dugmeta: dugme
+sa nazivom “Dodaj” i dugme sa nazivom “Snimaj” koje je onemogućeno (disabled). (2)
+4. Dodati meni komponentu sa stavkom Movie. (0.5)
+5. Klikom na Movie, unutar MainActivity se prikazuje MovieFragment. (0.5)
+6. Klikom na dugme “Dodaj” otvara se forma za dodavanje novog filma. (0.5)
+7. Forma ima: naziv filma, ocenu (EditText brojčanog tipa), Checkbox ispred koga stoji labela “Odgledano”,
+dugme za potvrdu i dugme za odustajanje (1.5). Klikom na dugme za odustajanje zatvoriti formu (0.5). Klikom
+na potvrdu dodati film u RecyclerView (3).
+8. Kreirati BroadcastReceiver. Receiver osluškuje dodavanje filma i pamti najveću ocenu do sada. Nakon
+svakog dodavanja, u Toast poruci ispisati naziv filma koji ima najveću ocenu. (4)
+9. Kreirati servis koji se pokreće na svaki minut (2.5) i proverava da li je dozvoljena kamera (obavezno tražiti
+dozvolu) (1.5). Ako je kamera dozvoljena, omogućiti (enable) dugme “Snimaj”. (1.5)
+
+
 # Kolokvijum1 — Android (Java)
 
 Rešenje kolokvijumskog zadatka: **Toolbar + meni**, **Fragment sa RecyclerView-om**, **forma (DialogFragment) za dodavanje filma**, **BroadcastReceiver** koji pamti najveću ocenu i **Service** koji na svaki minut proverava dozvolu za kameru.
